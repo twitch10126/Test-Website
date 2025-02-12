@@ -1,0 +1,322 @@
+* {
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+th {
+
+    font-weight: 800;
+}
+
+body {
+
+    flex-wrap: wrap;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.616), rgba(0, 0, 0, 0.877), black, rgba(0, 0, 0, 0.842), rgb(0, 0, 0)), url("/Images/Coffee.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    background-size: 100% 50% 0% 50%;
+    margin-right: 1%;
+    max-block-size: 30%;
+}
+
+/* nav bar*/
+
+.flex-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    background-color: rgb(5, 5, 5);
+    color: coral;
+    height: 45px;
+    margin: -1%;
+    padding: 1%;
+}
+
+a {
+
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+
+    color: chocolate;
+}
+
+
+/* title */
+
+h1 {
+
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: underline;
+}
+
+/*About section*/
+
+#About {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+h3,
+h2 {
+
+    text-decoration: underline;
+}
+
+.category {
+
+    text-decoration: underline;
+}
+
+#about_title {
+
+    margin-top: 90px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+
+/*This is the Menu*/
+
+#Menu {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.menu_head {
+
+    flex-wrap: wrap;
+    text-align: center;
+    color: rgb(245, 244, 244);
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+#menu_title {
+
+    column-width: 542px;
+    text-align: center;
+    font-size: larger;
+}
+
+table {
+
+    background-color: rgb(228, 192, 179);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: max-content;
+    color: hsl(32, 74%, 33%);
+    margin-top: 5%;
+    font-size: large;
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+
+.coffee,
+.tea,
+.cake,
+.hot,
+.cold {
+
+    text-align: center;
+    border-top: none;
+}
+
+.extras,
+.price,
+.cold,
+.hot,
+.cake {
+
+    column-width: 153.5px;
+    border-top: none;
+}
+
+#extra {
+
+    border-top: none;
+}
+
+/*Catering*/
+
+#Catering {
+
+    justify-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("/Images/CoffeeShop.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+#catering_table {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-color: black;
+    color: rgb(146, 88, 22);
+    font-size: medium;
+    border-width: 3px;
+    border-collapse: collapse;
+    max-width: 700px;
+    margin-top: -10px;
+    margin-bottom: 50px;
+    margin: 0 auto;
+
+}
+
+
+
+#catering_title {
+
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    color: rgba(253, 252, 250, 0.856);
+}
+
+.assort_title {
+
+    text-align: center;
+    color: rgb(146, 88, 22);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+ul li {
+
+    list-style-position: inside;
+    text-align: left;
+    padding-right: 20px;
+}
+
+p {
+
+    color: white;
+    margin-left: 5px;
+
+}
+
+.event,
+.assort_sand,
+.assort_cake,
+.charge {
+
+    column-width: 290px;
+}
+
+.charge {
+
+    text-align: center;
+}
+
+/*Booking form*/
+
+#booking_header {
+
+    display: flex;
+    justify-content: center;
+    color: rgb(228, 192, 179);
+    ;
+    font-size: 30px;
+    font-style: italic;
+
+    margin: 0 auto;
+}
+
+#booking_form {
+
+    display: flex;
+    justify-self: center;
+    background-color: rgb(228, 192, 179);
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#booking_title {
+
+    column-width: 1010px;
+    text-align: center;
+    font-size: larger;
+    border-style: none;
+}
+
+#checkbox {
+
+    color: rgb(146, 88, 22);
+}
+
+input[type="submit"]:hover {
+
+    color: blue;
+}
+
+input[type="reset"]:hover {
+
+    color: red;
+}
+
+label[id=checkbox] {
+
+    color: rgb(1, 1, 8);
+}
+
+#inputs {
+
+    border-style: none;
+}
+
+tfoot {
+    
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+
+
+/*This is the Footer/contact details*/
+
+footer {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgb(0, 0, 0, 0.842);
+    background-blend-mode: hard-light;
+    margin: -1.2%;
+    padding: 1%;
+    color: white
+}

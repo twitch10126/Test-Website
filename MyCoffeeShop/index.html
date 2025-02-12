@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Coffee Shop</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+    <!-- This is the navigation Menu-->
+
+    <nav>
+        <ul class="flex-container">
+            <h3>
+                <li><a href="#About">About</a></li>
+            </h3>
+            <h3>
+                <li><a href="#Menu">Menu</a></li>
+            </h3>
+            <h3>
+                <li><a href="#Catering">Catering</a></li>
+            </h3>
+            <h3>
+                <li><a href="#Booking">Booking Form</a></li>
+            </h3>
+        </ul>
+
+    </nav>
+
+    <h1 class="my_shop">My Coffee Shop</h1>
+
+    <h4 id="about_title">About</h4>
+
+    <div id="About">
+        <p>Our coffee shop offers a unique experience. We have cakes, Coffee, Tea, Hot Sandwiches and Cold Sandwiches
+            and we
+            also offer a catering service!.</p>
+    </div>
+    <br>
+
+    <div>
+        <br>
+
+
+        <!--This is the Menu-->
+
+
+        <div id="Menu">
+            <h3 class="menu_head">Menu</h3>
+
+            <table border="1">
+                <thead>
+
+                    <tr>
+                        <td id="menu_title">
+                            <h3>Menu</h3>
+                        </td>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="coffee category" colspan="2">Coffee</td>
+
+                        <th class="price">£1.50</th>
+                    </tr>
+
+                    <tr>
+                        <td class="tea category" colspan="2">Tea</td>
+
+                        <th class="price">£1.50</th>
+                    </tr>
+
+                    <tr>
+                        <td class="cake category">Cakes</td>
+                        <td>
+                            <ul>
+                                <li>Victoria Sponge</li>
+                                <li>Chocolate Cake</li>
+                                <li>Brownie</li>
+                            </ul>
+                        </td>
+                        <th class="price">£1.00</th>
+                    </tr>
+
+                    <tr>
+                        <td class="hot category">Hot Sandwiches</td>
+                        <td>
+                            <ul>
+                                <li>Egg Sandwich</li>
+                                <li>Bacon Sandwich</li>
+                                <li>Sausage Sandwich</li>
+                                <li>B.E.S.T</li>
+                            </ul>
+                        </td>
+                        <th class="price">£6.00 </th>
+                    </tr>
+
+                    <tr>
+                        <td class="cold category">Cold Sandwiches</td>
+                        <td>
+                            <ul>
+                                <li>Salad Sandwich</li>
+                                <li>Ham Sandwich</li>
+                                <li>Cheese Sandwich</li>
+                                <li>Tuna & Mayo</li>
+
+                            </ul>
+                        </td>
+                        <th class="price">£4.00</th>
+                    </tr>
+
+                    <tr>
+                        <th class="extras category">Extras</th>
+                        <td>
+                            <ul id="extra" class="extras">
+                                <li>Milk</li>
+                                <li>Cream</li>
+                                <li>Custard</li>
+                                <li>Ice Cream</li>
+                            </ul>
+                        </td>
+                        <th class="price">50p</th>
+
+                    </tr>
+                </tbody>
+
+
+            </table>
+            <br>
+
+            <br>
+            <br>
+
+
+        </div>
+        <hr>
+
+
+        <!--About Catering-->
+
+        <div id="Catering">
+            <h3 id="catering_title">Catering</h3>
+            <br>
+            <p>We offer a catering service tailored to your needs. Below is a table showing what is available, Which
+                events
+                we
+                cater for and the prices we charge.</p>
+            <br>
+
+            <!--This is the Catering table-->
+
+            <table id="catering_table" border="1">
+                <tr>
+                    <th colspan="4">
+                        <h4>Catering</h4>
+                    </th>
+                </tr>
+                <tr>
+                    <th class="event category">Weddings</th>
+
+                    <td class="assort_sand">
+                        <p class="assort_title">Assorted Sandwiches</p>
+                        <ul>
+                            <li>Bacon</li>
+                            <li>Sausage</li>
+                            <li>Egg</li>
+                            <li>B.E.S.T</li>
+                            <li>Salad</li>
+                            <li>Cheese</li>
+                            <li>Tuna & Mayo</li>
+                            <li>Ham</li>
+                        </ul>
+                    </td>
+                    <td class="assort_cake">
+                        <p class="assort_title">Assorted Cakes</p>
+                        <ul>
+                            <li>Victoria Sponge</li>
+                            <li>Chocolate Cake</li>
+                            <li>Brownie</li>
+                            <li>Sprinkle Cake</li>
+                            <li>Pancakes<ul>
+                                    <li>Strawberry</li>
+                                    <li>Kinder</li>
+                                    <li>Original</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </td>
+                    <td class="charge">
+                        £40
+                    </td>
+
+                </tr>
+                <tr>
+                    <th class="event category">Baby Shower</th>
+
+                    <td class="assort_sand">
+                        <p class="assort_title">Assorted Sandwiches</p>
+                        <ul>
+                            <li>Salad</li>
+                            <li>Cheese</li>
+                            <li>Tuna & Mayo</li>
+                            <li>Ham</li>
+                        </ul>
+                    </td>
+                    <td class="assort_cake">
+                        <p class="assort_title">Assorted Cakes</p>
+                        <ul>
+                            <li>Victoria Sponge</li>
+                            <li>Chocolate Cake</li>
+                            <li>Brownie</li>
+                            <li>Sprinkle Cake</li>
+                            <li>Pancakes<ul>
+                                    <li>Strawberry</li>
+                                    <li>Kinder</li>
+                                    <li>Original</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </td>
+                    <td class="charge">
+                        £25
+                    </td>
+                </tr>
+                <tr>
+                    <th class="event category">Christenings</th>
+
+                    <td class="assort_sand">
+                        <p class="assort_title">Assorted Sandwiches</p>
+                        <ul>
+                            <li>Salad</li>
+                            <li>Cheese</li>
+                            <li>Tuna & Mayo</li>
+                            <li>Ham</li>
+                        </ul>
+                    </td>
+                    <td class="assort_cake">
+                        <p class="assort_title">Assorted Cakes</p>
+                        <ul>
+                            <li>Victoria Sponge</li>
+                            <li>Chocolate Cake</li>
+                            <li>Brownie</li>
+                            <li>Sprinkle Cake</li>
+                            <li>Pancakes<ul>
+                                    <li>Strawberry</li>
+                                    <li>Kinder</li>
+                                    <li>Original</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </td>
+                    <td class="charge">
+                        £25
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+        <br>
+        <hr>
+        <br>
+
+        <!--This is the Booking Form-->
+
+        <div id="Booking">
+            <form action="" method="">
+                <table id="booking_form" border="1">
+                    <h3 id="booking_header">Booking Form</h3>
+                    <thead>
+                        <tr>
+                            <th id="booking_title">Booking Form</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="form">
+                                <label for="first-name">First Name:</label>
+                                <input type="text" id="first-name" placeholder="Enter First Name..." required>
+
+
+
+                                <label for="user-number">Phone Number: </label>
+                                <input type="number" id="user-number" placeholder="Enter Phone Number..." required>
+                                <br>
+                                <br>
+                                <label for="venue-name">Venue Name: </label>
+                                <input type="text" id="venue-name" placeholder="Enter Venue Name..." required>
+
+                                <label for="venue-address">Venue Address: </label>
+                                <input type="text" type="number" id="venue-address" placeholder="Enter Venue Address..."
+                                    required>
+                                <br>
+                                <br>
+                                <label for="number-attendants">Number Of Attendees: </label>
+                                <input type="number" id="number-attendants" placeholder="Number Of Attendees...">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <h3>Choose Your Event</h3>
+                                <input type="radio" id="event-wedding" value="wedding" name="event">
+                                <label for="event-wedding">Wedding</label>
+
+
+                                <input type="radio" id="event-baby" value="baby-shower" name="event">
+                                <label for="event-baby">Baby Shower</label>
+                                <input type="radio" id="event-christening" value="christening" name="event">
+                                <label for="event-christening">Christening</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <h3>Extras</h3>
+
+                                Sandwiches £2 - £4
+                                <br>
+                                <br>
+                                <label id=checkbox>
+                                    <input type="checkbox" id="Sandwich-bacon" value="Bacon" name="Sandwich">
+                                    <label for="Sandwich-bacon">Bacon Sandwich</label>
+                                    <input type="checkbox" id="Sandwich-sausage" value="Sausage" name="Sandwich">
+                                    <label for="Sandwich-sausage">Sausage Sandwich</label>
+                                    <input type="checkbox" id="Sandwich-egg" value="Egg" name="Sandwich">
+                                    <label for="Sandwich-egg">Egg Sandwich</label>
+                                    <input type="checkbox" id="Sandwich-best" value="Best" name="Sandwich">
+                                    <label for="Sandwich-best">B.E.S.T Sandwich</label>
+                                    <input type="checkbox" id="Sandwich-salad" value="Salad" name="Sandwich">
+                                    <label for="Sandwich-salad">Salad Sandwich</label>
+                                    <input type="checkbox" id="Sandwich-cheese" value="Cheese" name="Sandwich">
+                                    <label for="Sandwich-cheese">Cheese Sandwich</label>
+                                    <input type="checkbox" id="Sandwich-tuna" value="Tuna" name="Sandwich">
+                                    <label for="Sandwich-tuna">Tuna & Mayo Sandwich</label>
+                                    <input type="checkbox" id="Sandwich-ham" value="Ham" name="Sandwich">
+                                    <label for="Sandwich-ham">Ham Sandwich</label>
+                                    <br>
+                                    <br>
+                                    Cakes £1
+                                    <br>
+                                    <input type="checkbox" id="cake-sponge" value="Sponge" name="cake">
+                                    <label for="cake-sponge">Victoria Sponge</label>
+                                    <input type="checkbox" id="cake-chocolate" value="Chocolate" name="cake">
+                                    <label for="cake-chocolate">Chocolate Cake</label>
+                                    <input type="checkbox" id="cake-brownie" value="brownie" name="cake">
+                                    <label for="cake-brownie">Brownie</label>
+                                    <input type="checkbox" id="cake-sprinkle" value="Sprinkle" name="cake">
+                                    <label for="cake-sprinkle">Sprinkle Cake</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="checkbox" id="cake-pancakes" value="Pancakes" name="pancake">
+                                <label for="cake-pancakes">Pancakes</label>
+                                <ul>
+                                    <li><input type="checkbox" id="pancakes-strawberry" value="Strawberry"
+                                            name="pancake">
+                                        <label for="cake-pancakes">Strawberry Pancakes</label>
+                                    </li>
+                                    <li><input type="checkbox" id="pancakes-kinder" value="Kinder" name="pancake">
+                                        <label for="cake-pancakes">Kinder Pancakes</label>
+                                    </li>
+                                    <li><input type="checkbox" id="pancakes-original" value="Original" name="pancake">
+                                        <label for="cake-pancakes">Original Pancakes</label>
+                                    </li>
+
+
+
+                                </ul>
+                            </td>
+                    </tbody>
+                    <tfoot>
+
+                        </tr>
+
+                        <!--Submit and reset buttons-->
+                        <tr>
+                            <td id="inputs">
+                                <input type="submit">
+                                <input type="reset">
+                            </td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+
+            </form>
+        </div>
+
+</body>
+
+<br>
+<br>
+
+<footer>
+
+    <!--Contact Us-->
+
+    <h3>Contact us:</h3>
+    <p>Phone Number: 09283737475656</p>
+    <p>Email:<a href="MyCoffeeShop@CoffeeShops.com"> MyCoffeeShop@CoffeeShops.com</a></p>
+    <p>Address: Coffee Shop Drive, Milkton, QRC 6YH</p>
+</footer>
+
+</html>
